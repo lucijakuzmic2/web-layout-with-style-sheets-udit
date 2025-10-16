@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design Resources — Lucija Kuzmic</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/resources.css" />
+  </head>
+  <body>
+    <header class="resources-header">
+      <div class="container">
+        <h1>Web Layout with style sheets - PROJECT 1 - Lucija Kuzmic</h1>
+        <h2>Classic and Modern Web Design Tools</h2>
+      </div>
+    </header>
+    <nav class="resources-nav">
+      <div class="container">
+        <h3>Tools</h3>
+        <ul>
+          <li><a href="#requires-nodejs">⚙️ Requires Node.js</a></li>
+          <li><a href="#no-nodejs">🌐 No Node.js</a></li>
+          <li><a href="#requires-ruby">💎 Requires Ruby</a></li>
+          <li><a href="#standalone-binary">📦 Standalone Binary</a></li>
+          <li><a href="#saas">☁️ SaaS</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <main class="container">
+      <section class="tools-section">
+        <h3>Runtime of tools</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Tool</th>
+              <th>Runtime</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tailwind CSS</td>
+              <td>Node.js (npm/pnpm) for development and build</td>
+            </tr>
+            <tr>
+              <td>Material UI</td>
+              <td>Node.js for installation and development</td>
+            </tr>
+            <tr>
+              <td>Anime.js</td>
+              <td>CDN or direct download</td>
+            </tr>
+            <tr>
+              <td>Bulma</td>
+              <td>CDN or direct download</td>
+            </tr>
+            <tr>
+              <td>Jekyll</td>
+              <td>Ruby (not Node.js)</td>
+            </tr>
+            <tr>
+              <td>Hugo</td>
+              <td>Standalone binary (no Node.js or Ruby)</td>
+            </tr>
+            <tr>
+              <td>Hygraph</td>
+              <td>SaaS (no local installation required)</td>
+            </tr>
+            <tr>
+              <td>ImageKit.io</td>
+              <td>SaaS (no local installation required)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br /><br />
+      <section id="requires-nodejs" class="tool-card">
+        <h2>⚙️Requires Node.js</h2>
+        <article>
+          <h4><u>TailwindCSS</u></h4>
+          <p>
+            Tailwind CSS is a utility-first CSS (Cascading Style Sheets)
+            framework
+            <br />
+            with predefined classes that you can use to build and design web
+            pages
+            <br />
+            directly in your markup. It lets you write CSS in your HTML in the
+            form of
+            <br />
+            predefined classes.
+            <br /><br />
+            When we say utility-first CSS, we refer to classes in our markup
+            (HTML) with predefined functionalities.<br />
+            This implies that you only have to write a class with predefined
+            styles attached to it, and those styles <br />
+            will be applied to the element. <br /><br />
+            In a case where you are working with vanilla CSS (CSS without any
+            framework or library), <br />
+            you would first give your element a class name and then attach
+            different properties and <br />
+            values to that class, which will, in turn, apply styling to your
+            element.
+            <br /><br />
+            Before using Tailwind CSS, there are some prerequisites that you
+            should consider meeting <br />
+            to use the framework's features without difficulties. Here are a few
+            of them: <br />
+          </p>
+          <ul>
+            <li>Good knowledge of HTML, its structure, and how it works</li>
+            <li>
+              Solid foundation in CSS — media queries, flexbox, and grid system
+            </li>
+          </ul>
+          <p>
+            You can use Tailwind CSS in frontend web projects, <br />
+            including JavaScript frameworks like React.js, Next.js, Laravel,
+            Vite, Gatsby, etc.
+            <br /><br />
+            Here are some of the advantages of using Tailwind CSS:<br />
+          </p>
+          <ol>
+            <li>Faster development process</li>
+            <li>
+              Helps you practice your CSS more as the utilities are similar
+            </li>
+            <li>All utilities and components are easily customizable</li>
+            <li>The overall file size for production is usually small</li>
+            <li>Easy to learn if you already know CSS</li>
+            <li>Good documentation for learning</li>
+          </ol>
+          <p>Some of the disadvantages of using Tailwind CSS include:<br /></p>
+          <ol>
+            <li>
+              Your markup might look disorganized for large projects because all
+              the styles are in the HTML files.
+            </li>
+            <li>It isn't easy to learn if you don't understand CSS well.</li>
+            <li>
+              You are forced to build everything from scratch, including your
+              input elements. <br />
+              When you install Tailwind CSS, it removes all default CSS styles.
+            </li>
+            <li>
+              Tailwind CSS is not the best option if you are looking to minimize
+              time spent <br />
+              developing your website's frontend and mainly focusing on the
+              backend logic.
+            </li>
+          </ol>
+          <p>
+            Tailwind CSS is best used to speed up the development process by
+            writing less code. <br />
+            It comes with a design system that helps maintain consistency across
+            various design <br />
+            requirements like padding, spacing, and so forth; with this, you do
+            not have to worry <br />
+            about creating your design systems. <br />
+            <br />
+            You can also use Tailwind CSS if you are looking to use a framework
+            that is easily <br />
+            configurable because it does not force you to use components <br />
+            (navigation bars, buttons, forms, and so forth) in the same way all
+            the time; <br />
+            you get to choose what your components should look like. <br />
+            But you should never use Tailwind if you have not learned and
+            practiced CSS. <br />
+          </p>
+        </article>
+        <br />
+        <h4><u>Material UI</u></h4>
+        <p>
+          Material UI is an open-source React Components library that is based
+          on Google's <br />
+          Material Design and provides the predefined UI components for React.
+          <br /><br />
+          Material UI is a UI library that provides predefined react components
+          <br />
+          implementing Google's Material Design. Material UI is a design
+          language <br />
+          built by Google in 2014 and works with various JavaScript frameworks
+          apart <br />
+          from React such as Angular.js and Vue.js. <br />
+          <br />
+          The main reason to choose Material UI is the quality of the inbuilt
+          designs of Material UI. <br />
+          Its easy implementation makes it the first choice of most developers.
+          The inbuilt components <br />
+          are also customizable so it helps in easily recreating the designs.
+          <br /><br />
+          There are some basic conventions which we must follow for effective
+          usage of MUI components such as: <br />
+        </p>
+        <ol>
+          <li>
+            <b>Globals:</b> All the MUI components are defined in a global scope
+            and are isolated. These globals should <br />
+            only be used for website development
+          </li>
+          <li>
+            <b>Mobile-first component:</b>The components codes are written for
+            mobile first and then these components <br />
+            can be scaled up for bigger screen sizes
+          </li>
+          <li>
+            <b>Responsive meta tag:</b> The meta tag should be made responsive
+            to ensure touch zooming for all devices
+          </li>
+          <li>
+            <b>CssBaseline:</b> The is another CssBaseline component which
+            ensures consistency among different browsers
+          </li>
+          <li>
+            <b>Default Font:</b> The default font used in material design is
+            Roboto
+          </li>
+        </ol>
+        <p>
+          Material UI boasts a vast collection of reusable components that cater
+          to a wide range of UI needs. <br />
+          Here are some of the most commonly used ones: <br />
+        </p>
+        <ul>
+          <li>
+            <b>Buttons:</b> Generate interactive buttons in various styles
+            (contained, outlined, text) and sizes.
+          </li>
+          <li>
+            <b>Typography:</b> Craft visually appealing and well-structured text
+            elements using typography components.
+          </li>
+          <li>
+            <b>Cards:</b> Present content in a clear and organized manner by
+            utilizing cards.
+          </li>
+          <li>
+            <b>Lists:</b> Create ordered or unordered lists with enhanced
+            styling and functionality.
+          </li>
+          <li>
+            <b>Forms:</b> Construct complex forms with a plethora of input
+            elements
+            <br />
+            (text fields, dropdowns, checkboxes, radio buttons) and validation
+            capabilities.
+          </li>
+          <li>
+            <b>Dialogs:</b> Implement modal dialogs for popups and alerts.
+          </li>
+          <li>
+            <b>Grid System:</b> Establish a responsive layout foundation using
+            the grid system.
+          </li>
+        </ul>
+      </section>
+      <br /><br />
+      <section id="no-nodejs" class="tool-card">
+        <h2>🌐No Node.js</h2>
+        <article>
+          <h4><u>Anime.js</u></h4>
+          <p>
+            Anime.js is a lightweight, dependency free JavaScript animation
+            library that can animate CSS properties,<br />
+            SVG paths, DOM attributes, and plain JavaScript objects. It works
+            across all modern browsers<br />
+            and its minified size is under 20 KB, making it ideal for
+            performance critical web projects<br /><br />
+            Users who choose Anime.js gain many direct benefits. First, it's
+            lightweight, loads quickly, and doesn't impact <br />
+            page performance. Anime.js' syntax is simple and easy to learn,
+            allowing even those without a solid foundation <br />
+            in development to create fluid animations with ease. Compared to
+            other animation libraries, Anime.js performs <br />
+            well in terms of compatibility, controllability, and animation
+            expressiveness. It can be used flexibly with <br />
+            existing web architecture without limiting design styles. The
+            Anime.js community is active, with clear <br />
+            documentation, offering a wealth of examples, and providing support.
+            <br /><br />
+            Main features of Anime.js: <br />
+          </p>
+          <ol>
+            <li>
+              <b>Animation Properties and Elements:</b> Makes it easy to add
+              motion, gradient, or transformation to <br />
+              various elements such as HTML, SVG, CSS, JS objects, making page
+              content more dynamic.
+            </li>
+            <li>
+              <b>Timeline Control:</b> Allows you to combine and nest multiple
+              animations, precisely controlling <br />
+              he order of complex animations to achieve highly customized
+              transition effects.
+            </li>
+            <li>
+              <b>Multiple easing functions:</b> Anime.js includes a variety of
+              easing effects, allowing animations <br />
+              to be more natural, such as elastic, bouncing, linear, etc.,
+              meeting different scenario needs.
+            </li>
+            <li>
+              <b>Events and Callbacks:</b> Allows you to link callback functions
+              to the start, end, or update of the <br />
+              animation, linking the animation to other page features to enhance
+              the interactive experience.
+            </li>
+            <li>
+              <b>Dynamic Properties and Loop Control:</b> Supports dynamic
+              generation of property values based on <br />
+              the page state, making it easy to implement complex animation
+              effects such as <br />
+              loops, staggers, delays, etc.
+            </li>
+          </ol>
+          <p>
+            <b>Why choose Anime.js over CSS, jQuery, or GSAP?</b> <br />
+            CSS Animations
+          </p>
+          <ul>
+            <li><b>Pros:</b> Native, performant, easy for simple use cases</li>
+            <li>
+              <b>Cons:</b> No timeline or sequencing, no dynamic control via
+              JavaScript, limited to predefined properties.
+            </li>
+          </ul>
+          <p>jQuery Animate</p>
+          <ul>
+            <li><b>Pros:</b> Easy syntax (for jQuery users)</li>
+            <li>
+              <b>Cons:</b> Outdated, limited performance, bloated if jQuery is
+              used just for animation.
+            </li>
+          </ul>
+          <p>GSAP</p>
+          <ul>
+            <li>
+              <b>Pros:</b> Extremely powerful, robust ecosystem, great support.
+            </li>
+            <li>
+              <b>Cons:</b> Heavier bundle, can be overkill for simpler use
+              cases, commercial license for some features.
+            </li>
+          </ul>
+          <p>
+            Anime.js strikes the perfect balance: lightweight, modern, and
+            feature-rich — without overcomplicating things.
+            <br /><br />
+            Anime.js isn't just a playground tool, it's a production-ready
+            animation library used in a wide <br />
+            variety of real-world applications. On websites and landing pages,
+            it brings life to product launches, <br />
+            hero sections, and micro-interactions such as hover effects, loading
+            sequences, and animated SVG doodles. <br />
+            In web apps and dashboards, Anime.js enhances the user experience by
+            animating charts, transitions <br />
+            between tabs, and dynamic UI feedback, for example, creating smooth
+            modal entrances and exit effects. <br />
+            It's also widely used in data visualization, where developers
+            animate graphs, count-up numbers, <br />
+            and loading states, often combining Anime.js with libraries like
+            Chart.js or D3 to build engaging and <br />
+            informative visuals. Finally, on learning platforms and blogs, it
+            helps enhance storytelling through <br />
+            interactive visuals, dynamic infographics, and animated explainers
+            that make content more engaging and<br />
+            easier to understand.<br /><br />
+          </p>
+        </article>
+        <article>
+          <br />
+          <h4><u>Bulma</u></h4>
+          <p>
+            Bulma is an open source, CSS only framework built on Flexbox that
+            enables fast, mobile first <br />
+            responsive layouts without any JavaScript dependencies. Its modular
+            architecture lets developers <br />
+            import only the components they need (e.g., columns, navbar,
+            buttons), keeping the final bundle <br />
+            small—typical tree shaken builds are around 50 KB. <br /><br />
+            Core feature: <br />
+          </p>
+          <ol>
+            <li>
+              <b>Flexbox grid:</b> A flexible column system (.columns/.column)
+              that adapts automatically to screen size, <br />
+              eliminating float hacks
+            </li>
+            <li>
+              <b>Semantic, modifier classes:</b> Simple class names like
+              .is-primary, .is-rounded, and responsive helpers <br />
+              (is-hidden-mobile) allow quick styling without custom CSS
+            </li>
+            <li>
+              <b>Sass based theming:</b> Variables and mixins let you customize
+              colors, spacing, and typography, or create <br />
+              full themes with minimal overrides
+            </li>
+            <li>
+              <b>Component library:</b> Ready to use UI elements (buttons,
+              forms, cards, notifications, tiles) <br />
+              are styled out of the box
+            </li>
+          </ol>
+          <p>Advantages:</p>
+          <ul>
+            <li>Easy to learn and set up (CDN, npm, or direct download)</li>
+            <li>
+              No JavaScript bundle, reducing load time and avoiding conflicts
+              with other libraries
+            </li>
+            <li>
+              Strong community support and extensive documentation, with many
+              tutorials <br />
+              and GitHub mirrors for quick prototyping
+            </li>
+          </ul>
+          <p>Limitations: <br /></p>
+          <ul>
+            <li>
+              Lacks built in interactive components (modals, carousels) that
+              Bootstrap provides, <br />
+              requiring custom JS if needed
+            </li>
+            <li>
+              Smaller ecosystem of third party plugins and themes compared with
+              larger frameworks
+            </li>
+          </ul>
+          <p>
+            Bulma is ideal for static sites, landing pages, dashboards, or any
+            project <br />
+            where a clean, responsive design is needed without the overhead of a
+            full JS framework
+          </p>
+        </article>
+      </section>
+      <br /><br />
+      <section id="requires-ruby" class="tool-card">
+        <h2>💎Requires Ruby</h2>
+        <h4><u>Jekyll</u></h4>
+        <p>
+          Jekyll is an open-source static site generator written in Ruby. <br />
+          Jekyll started as an initiative by Tom Preston-Werner as a self-hosted
+          alternative <br />
+          to complicated engines like WordPress and Mephisto. Jekyll allows the
+          use of versioning systems <br />
+          such as Git and generates a site statically, while giving all forms of
+          customizations by <br />
+          integrating template engines. Using only static pages, Jekyll provides
+          a very stable and <br />
+          maintainable platform for generation of sites, which only requires a
+          simple HTTP web server. <br /><br />
+          Jekyll automates many small tasks, which would take lots of time to do
+          manually. <br />
+          These tasks include pagination, syntax highlighting and making use of
+          layouts.<br />
+          The generation of the static sites simplifies the software-stack
+          required to operate a Jekyll site. <br />
+          This simplification brings lots of benefits, such as a stability and
+          security. <br /><br />
+          Jekyll operates without databases or back-end requirements.
+          Documentation is structured as plain <br />
+          text files in markdown format. Markdown files are then processed into
+          HTML, providing an efficient way to manage content.<br />
+          With this we can easily modify the site's structure, content, and
+          design using markdown and CSS. <br /><br />
+          Jekyll and GitHub Pages are free. Hosting technical documentation on
+          GitHub Pages eliminates hosting costs, <br />
+          which is particularly beneficial for small projects, startups, or
+          open-source projects with limited budgets. <br />
+          The integration with GitHub means users can deploy their documentation
+          at no extra cost, manage version <br />
+          control with Git, and collaborate with other writers and
+          developers.<br /><br />
+          Since Jekyll generates static HTML files, sites built with Jekyll are
+          incredibly fast to load, <br />
+          positively impacting user experience and SEO. Static sites have no
+          server-side processing, which <br />
+          minimizes load times. A well-optimized Jekyll site can rank well on
+          search engines, making it easy <br />
+          for users to find and navigate documentation. <br /><br />
+          As an open-source project, Jekyll has a large community of developers
+          and writers contributing to its ecosystem. <br />
+          This community provides a wealth of themes, plugins, and resources to
+          help users customize and expand their <br />
+          documentation sites. <br /><br />
+          Jekyll is a static site generator, so it lacks the interactive
+          features found in dynamic websites. <br />
+          For technical documentation that needs dynamic elements, like
+          real-time search or personalized user experiences, <br />
+          Jekyll may not be the best choice. While there are workarounds, such
+          as using JavaScript or integrating <br />
+          third-party services like Algolia for search, these solutions can
+          complicate the setup and <br />
+          require additional maintenance. <br /><br />
+          Although Jekyll works well with GitHub Pages, this can create a
+          dependency on the GitHub ecosystem, <br />
+          which may not be ideal for all projects. If a company or organization
+          does not allow documentation <br />
+          to be hosted on GitHub, alternative hosting may be necessary.
+          Additionally, Jekyll is built with Ruby, <br />
+          which may require installation and maintenance if it's not already
+          part of your tech stack. <br />
+          This dependency can be a hurdle for teams accustomed to different
+          programming environments.<br /><br />
+          Managing a large documentation set in Jekyll can become challenging as
+          projects grow. <br />
+          With many files and directories, keeping track of content organization
+          and navigation can require <br />
+          more effort, mainly when dealing with complex, hierarchical
+          documentation. While plugins and custom <br />
+          scripts can help, scaling a Jekyll site can require significant
+          technical intervention, and it <br />
+          may be harder to implement features like versioned documentation or
+          content filtering without heavy customization.
+        </p>
+      </section>
+      <br /><br /><br />
+      <section id="standalone-binary" class="tool-card">
+        <h2>📦Standalone binary</h2>
+        <h4><u>Hugo</u></h4>
+        <p>
+          Hugo is a static site generator (SSG) written in Go (aka Golang), a
+          high-performance <br />
+          compiled programming language often used for developing backend
+          applications and services. <br />
+          Today, Hugo is capable of generating most websites within seconds
+          (less than 1 ms per page). <br /><br />
+          As a static site generator, Hugo takes Markdown content files, runs
+          them through theme templates, <br />
+          and spits out HTML files that you can easily deploy online, and it
+          does all of this extremely quickly.<br /><br />
+          In terms of raw performance, Hugo is the best static site generator in
+          the world. <br />
+          Compared to Jekyll, Hugo was shown to be 35x faster by Forestry.
+          <br />
+          Similarly, Hugo can render a 10,000-page site in 10 seconds, a task
+          that would take <br />
+          Gatsby over half an hour to complete. Not only is Hugo the fastest SSG
+          in terms of <br />
+          build times, but it's also quick to install. <br /><br />
+          Hugo ships as a self-contained executable, unlike Jekyll, Gatsby, and
+          other SSGs <br />
+          requiring installing dependencies with a package manager. <br />
+          This means you can download and use Hugo immediately without having to
+          worry about software dependencies. <br /><br />
+          Due to its flexible framework, multilingual support, and powerful
+          taxonomy system, Hugo is widely used to create:<br />
+        </p>
+        <ul>
+          <li>
+            Corporate, government, nonprofit, education, news, event, and
+            project sites
+          </li>
+          <li>Documentation sites</li>
+          <li>Image portfolios</li>
+          <li>Landing pages</li>
+          <li>Business, professional, and personal blogs</li>
+          <li>Resumes and CVs</li>
+        </ul>
+        <p>Hugo's fast asset pipelines include:<br /></p>
+        <ol>
+          <li>
+            <b>Image processing:</b> Convert, resize, crop, rotate, adjust
+            colors, apply filters, <br />
+            overlay text and images, and extract EXIF data
+          </li>
+          <li>
+            <b>JavaScript bundling:</b> Transpile TypeScript and JSX to
+            JavaScript, bundle, <br />
+            tree shake, minify, create source maps, and perform SRI hashing.
+          </li>
+          <li>
+            <b>Sass processing:</b> Transpile Sass to CSS, bundle, tree shake,
+            minify,
+            <br />
+            create source maps, perform SRI hashing, and integrate with PostCSS
+          </li>
+          <li>
+            <b>Tailwind CSS processing:</b> Compile Tailwind CSS utility classes
+            into standard CSS, <br />
+            bundle, tree shake, optimize, minify, perform SRI hashing, and
+            integrate with PostCSS
+          </li>
+        </ol>
+        <p>Hugo CLI Commands</p>
+        <ul>
+          <li><b>hugo check</b> - runs various verification checks</li>
+          <li>
+            <b>hugo config</b> - displays the configuration for a Hugo site
+          </li>
+          <li><b>hugo convert</b> - converts content to different formats</li>
+          <li><b>hugo deploy</b> - deploys your site to a cloud provider</li>
+          <li>
+            <b>hugo env</b> - displays the Hugo version and environment
+            information
+          </li>
+          <li><b>hugo gen</b> - provides access to various generators</li>
+          <li><b>hugo help</b> - displays information about a command</li>
+          <li>
+            <b>hugo import</b> - lets you import a site from another location
+          </li>
+          <li><b>hugo list</b> - displays a list of various content types</li>
+          <li><b>hugo mod</b> - provides access to various module helpers</li>
+          <li><b>hugo new</b> - lets you create new content for your site</li>
+          <li><b>hugo server</b> - starts a local development server</li>
+          <li><b>hugo version</b> - displays the current Hugo version</li>
+        </ul>
+        <p>
+          Hugo's archetypes folder is where you store content templates
+          formatted in Markdown. <br />
+          Archetypes are especially useful if your site has multiple content
+          formats. <br />
+          With Hugo archetypes, you can create a template for each content type
+          on your site. <br />
+          This lets you pre-populate generated Markdown files with all the
+          necessary configuration settings. <br /><br />
+          Hugo's content folder is where your actual post content goes. Hugo
+          supports both Markdown and <br />
+          HTML formats, with Markdown being the more popular option due to its
+          ease of use. <br />
+          In addition to being the general storage space for posts, you can use
+          the content folder <br />
+          to organize post content further. Hugo treats each top-level directory
+          in the content folder <br />
+          as a content section. Content sections in Hugo are similar to custom
+          post types in WordPress. <br />
+          For example, if your site has posts, pages, and podcasts, your content
+          folder would have posts, <br />
+          pages, and podcasts directories where content files for these
+          different post types would live. <br /><br />
+          Hugo's layouts folder contains HTML files that define the structure of
+          your site. <br />
+          In some cases, you may see a Hugo site without a layouts folder
+          because it doesn't <br />
+          have to be in the project's root directory and can reside within a
+          theme folder instead. <br /><br />
+          For sites that prefer a more self-contained way of storing template
+          files and assets, <br />
+          Hugo supports a themes folder. Hugo themes are similar to WordPress
+          themes in that <br />
+          they're stored in a themes directory and contain all the necessary
+          templates for a theme to function. <br /><br />
+          Hugo's data folder is where you can store supplemental data (in JSON,
+          YAML, or TOML format) that <br />
+          is needed to generate your site's pages. For example, if you wanted to
+          create a list of USD <br />
+          inflation rates from 1960 to 2020, it would take around 80 lines to
+          represent the data (one line for each year). <br />
+          Instead of putting this data directly in a content or template file,
+          you can create it in the data <br />
+          folder and populate it with the necessary information. <br /><br />
+          Hugo's static folder is where you store static assets that don't
+          require any additional processing. <br />
+          The static folder is typically where Hugo users store images, fonts,
+          DNS verification files, and more. <br />
+          When a Hugo site is generated and saved to a folder for easy
+          deployment, all files in the <br />
+          static folder are copied as-is. <br /><br />
+        </p>
+      </section>
+      <br /><br />
+      <section id="saas" class="tool-card">
+        <h2>☁️SaaS</h2>
+        <article>
+          <h4><u>Hygraph</u></h4>
+          <p>
+            Hygraph is the Headless CMS allowing you to build digital
+            experiences the way you envisioned them, <br />
+            with all your backends, frontends, and services, working together in
+            harmony. <br />
+            <br />
+            What do you get with Hygraph:<br />
+          </p>
+          <ul>
+            <li>
+              <b>Schema Builder</b> - Define the structure of your content API
+              using our low-code schema <br />
+              builder with a variety of field options like text, assets,
+              numbers, maps, and even <br />
+              connect content models to share information and scale faster.
+            </li>
+            <li>
+              <b>Remote Sources</b> - Low-code approach to configure multiple
+              external systems with your Hygraph project, <br />
+              with support for both GraphQL or REST APIs. Custom types are
+              auto-generated through introspection, <br />
+              but may need to be defined for some RESTful Remote Sources. Once a
+              remote source has been configured, <br />
+              content from this source can be used across multiple models or
+              queried on a top-level.
+            </li>
+            <li>
+              <b>API playground</b> - All projects come with a built-in API
+              Playground to experiment with <br />
+              queries and with mutations. It's also great for performing tasks
+              like testing <br />
+              authorization and access control with API keys, testing multiple
+              environments, <br />
+              localized content and more.
+            </li>
+            <li>
+              <b>Localization</b> - Define multiple locales within the project
+              and manage each translation <br />
+              easily within one content model. Localizations can be managed both
+              via the UI or <br />
+              through GraphQL mutations. You can also define default and
+              fallback languages.
+            </li>
+            <li>
+              <b>Webhooks</b> - Trigger webhooks for various Hygraph events with
+              additional headers <br />
+              and authentication if needed. Webhooks are logged and you can
+              retrigger failed <br />
+              webhooks when necessary.
+            </li>
+            <li>
+              <b>Granular permissions</b> - Define granular permissions for
+              every role in terms of what <br />
+              content they can access (exact models, stage, locales,
+              environments, etc.) <br />
+              and what actions they can perform (read, create, update, delete,
+              publish, unpublish).
+            </li>
+            <li>
+              <b>Content editing:</b>
+              <ul>
+                <li>
+                  <u>Components</u> - Make content creation significantly faster
+                  and flexible by using <br />
+                  components, a predefined set of fields to be used across
+                  multiple models. <br />
+                  You define the fields that will be used inside a component
+                  once, and then <br />
+                  content teams can fill them with different content every time
+                  they're used in a content entry.
+                </li>
+                <li>
+                  <u>Batch editing</u> - Save time by making changes to multiple
+                  content entries at once.
+                </li>
+                <li>
+                  <u>Commenting</u> - Add comments to content entries, start a
+                  discussion within and assign <br />
+                  them to team members directly from within the CMS.
+                </li>
+                <li>
+                  <u>Scheduled publishing</u> - Schedule publishing or
+                  unpublishing of content at a specific <br />
+                  time or as part of a release.
+                </li>
+                <li>
+                  <u>Content Stages and Workflows</u> - Create custom stages
+                  other than the default draft <br />
+                  and published stages and map your internal editorial
+                  workflows. <br />
+                  Combine these with granular permissions to define which users
+                  can read and move <br />
+                  content for every particular stage
+                </li>
+                <li>
+                  <u>Preview URL</u> - Set up URLs to preview content through
+                  auto-generated links <br />
+                  on your frontend before it's published.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>App Framework</b> - Tailor Hygraph according to your unique
+              business use case by building <br />
+              custom apps to either add functionality to Hygraph or connect to
+              other systems. <br />
+              Apps can connect to other systems, perform actions on the API and
+              have custom pages, <br />
+              sidebar elements or fields.
+            </li>
+          </ul>
+        </article>
+        <br />
+        <article>
+          <h4><u>ImageKit.io</u></h4>
+          <p>
+            ImageKit analyzes each incoming request, the viewer's device
+            capabilities, <br />
+            and the original file content in real-time to serve the lightest
+            possible variant <br />
+            in modern formats like AVIF, WebP, MP4, or WebM without any URL
+            changes.<br /><br />
+            You can connect any popular cloud storage or HTTP server, keep
+            existing paths, and ditch multi-tool pipelines.<br /><br />
+            ImageKit analyzes each incoming request, the viewer's device
+            capabilities, <br />
+            and the original file content in real-time to serve the lightest
+            possible variant <br />
+            in modern formats like AVIF, WebP, MP4, or WebM without any URL
+            changes. <br /><br />
+            ImageKit.io resizes the image automatically by simply specifying the
+            size in the image URL. <br /><br />
+            ImageKit.io automatically uses the correct output image format based
+            on image content, <br />
+            image quality, browser support, and user device capabilities. <br />
+            Also, the image will be converted and delivered as a WebP for all
+            <br />
+            browsers supporting the WebP image format. <br /><br />
+            ImageKit.io allows for more advanced transformations like smart
+            crop, <br />
+            image and text overlays, image trimming, blurring, contrast and
+            sharpness correction, <br />
+            and many more. It also comes with advanced delivery features like
+            Brotli <br />
+            compression for SVG images and image security. <br /><br />
+            It also comes bundled with a stellar infrastructure — AWS CloudFront
+            CDN, <br />
+            multi-region core processing servers, and a media library with
+            automatic global backups. <br /><br />
+            ImageKit.io also provides a media library, a feature missing in many
+            prominent <br />
+            image optimization tools. Media library is a highly available file
+            storage for <br />
+            all ImageKit.io users. It comes with a simple user interface to
+            upload, <br />
+            search, and manage files, images, and folders. <br /><br />
+            For image optimization needs for multiple websites or agencies
+            handling hundreds <br />
+            of websites, ImageKit.io would prove to be an ideal solution. We're
+            free to attach <br />
+            as many “origins” (storages or servers) with ImageKit.io. What that
+            means is each <br />
+            website has its storage or image server, which can be mapped to
+            separate <br />
+            URLs within the same ImageKit.io account. <br /><br />
+            ImageKit.io is a global image CDN, It has a distributed
+            infrastructure <br />
+            and processing regions around the world, in North Virginia (US
+            East), <br />
+            North California (US West), Frankfurt (EU), Mumbai (India), Sydney
+            (Australia) <br />
+            and Singapore, aiming to reduce latency between their servers and
+            our image origins. <br /><br />
+            Additionally, ImageKit.io stores the images (transformed as well as
+            original) <br />
+            in their cache after fetching them from our origins. This
+            intermediate caching <br />
+            is done to avoid processing the images again. Doing so not only
+            reduces the load <br />
+            on our origin servers and storage but also reduces data transfer
+            costs from them. <br /><br />
+            ImageKit.io comes integrated with a CDN to store and serve
+            resources. <br />
+            And while the primary use case is to deliver optimized images, it
+            can do <br />
+            the same for the other static assets on our website, like JS, CSS as
+            well as fonts. <br /><br />
+            It's worth a mention here that though ImageKit.io provides delivery
+            for <br />
+            non-image assets, it does not process or optimize them.
+          </p>
+        </article>
+      </section>
+      <br /><br />
+      <section class="reflection-section">
+        <h3>Critical Reflection</h3>
+        <p>
+          <b>Which tools fit my workflow?</b> <br /><br />
+          As a graphic design student learning web development, my workflow
+          centers on <br />
+          visual storytelling, clean layouts, and efficient design-to-code
+          translation. <br />
+          Because I use Visual Studio Code for development and GitHub for
+          version control and hosting, <br />
+          I benefit most from tools that balance creative flexibility with
+          developer efficiency. <br /><br />
+          From the reviewed sources, the tools that best fit my workflow are
+          Tailwind CSS, Anime.js, and Jekyll, <br />
+          as they align closely with both my visual and technical goals.
+          <br /><br />
+          Tailwind CSS uses a utility-first approach that allows rapid, custom
+          styling directly in HTML. <br />
+          This structure supports my preference for precise visual control and
+          creative experimentation, <br />
+          making it ideal for crafting unique layouts and maintaining
+          consistency across design elements. <br />
+          Unlike pre-styled frameworks such as Bootstrap, Tailwind lets me apply
+          my own design system, <br />
+          encouraging creativity rather than constraint. <br /><br />
+          For motion and interactivity, Anime.js provides lightweight yet
+          powerful animation capabilities. <br />
+          As a designer, animation helps me communicate emotion and guide user
+          attention. <br />
+          Anime.js enables this expressiveness through smooth transitions,
+          animated illustrations, <br />
+          and SVG effects, all of which enhance user experience without
+          compromising performance. <br /><br />
+          In terms of publishing, Jekyll integrates directly with GitHub Pages,
+          offering a simple, <br />
+          code-based method for managing and deploying static sites. <br />
+          This workflow suits my coursework projects and portfolio development
+          because it eliminates <br />
+          the need for complex back-end systems while keeping version control
+          seamless. <br /><br />
+          While Bulma CSS and Hugo also offer advantages—Bulma for simplicity
+          and Hugo <br />
+          for scalability—Tailwind CSS, Anime.js, and Jekyll provide the most
+          effective <br />
+          balance between design flexibility, functionality, and workflow
+          efficiency. <br />
+          Together, they enable me to merge visual storytelling with technical
+          precision, <br />
+          supporting my growth as a designer working within a modern web
+          development environment. <br /><br />
+          <b>Trade-offs observed</b> <br /><br />
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td><strong>Speed vs. Flexibility</strong></td>
+              <td>
+                Compares how quickly tools can be used or deployed against how
+                much design and functional flexibility they allow.
+              </td>
+              <td>Bulma, Hugo, Tailwind CSS, React + Material UI</td>
+              <td>
+                Bulma and Hugo focus on speed and simplicity—fast to load and
+                easy to deploy—while Tailwind and React/Material UI offer
+                greater design flexibility but require more setup time.
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Dependencies vs. Simplicity</strong></td>
+              <td>
+                Looks at the balance between complex package dependencies and
+                ease of setup or maintenance.
+              </td>
+              <td>Tailwind CSS, React + Material UI, Bulma, Anime.js</td>
+              <td>
+                Tailwind and React depend on Node.js build systems, offering
+                scalability but complexity. Bulma and Anime.js work with simple
+                CDN links, ideal for quick projects with fewer configuration
+                issues.
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Node.js vs. Standalone</strong></td>
+              <td>
+                Examines whether the tool requires Node.js to build and run or
+                can function independently.
+              </td>
+              <td>React, Tailwind CSS, Bulma, Jekyll, Hugo</td>
+              <td>
+                React and Tailwind rely on Node.js tooling, while Bulma, Jekyll,
+                and Hugo are standalone—offering lightweight performance and
+                easy GitHub integration for static site publishing.
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Creativity vs. Convention</strong></td>
+              <td>
+                Weighs freedom of visual design against predefined structure and
+                standardized UI components.
+              </td>
+              <td>Tailwind CSS, Anime.js, Material UI, Bulma, Jekyll, Hugo</td>
+              <td>
+                Tailwind and Anime.js enable creative control through custom
+                styling and animation. Material UI and Bulma promote
+                conventional, consistent design patterns. Jekyll and Hugo offer
+                structured templates, trading flexibility for maintainability.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br /><br />
+        <p>
+          <b>How would you use these tools in your portfolio?</b> <br /><br />
+          As a graphic design student developing a web portfolio using Visual
+          Studio Code and GitHub, <br />
+          I aim to combine strong visual presentation with efficient development
+          practices. <br />
+          From the tools I've researched, each contribute uniquely to different
+          aspects of my workflow, <br />
+          balancing creativity, structure, and performance. <br /><br />
+          For layout and visual design, Tailwind CSS offers the flexibility to
+          craft custom, responsive <br />
+          interfaces without relying on rigid templates. Its utility-first
+          classes allow me to implement <br />
+          my own color palettes and spacing systems, making the design feel
+          authentic to my style. <br />
+          However, for sections where a professional, polished look is needed
+          quickly—such as contact <br />
+          forms or navigation components, Material UI provides ready-made React
+          components that <br />
+          follow Google's Material Design principles. This balance of Tailwind's
+          creativity <br />
+          and Material UI's structure allows me to blend custom design with
+          usability standards. <br /><br />
+          Anime.js would enhance my portfolio's visual storytelling. <br />
+          Subtle animations, such as fading in project previews or animating SVG
+          graphics, <br />
+          would make the experience dynamic and memorable while showcasing my
+          motion design skills. <br />
+          Similarly, Bulma could serve as a lightweight CSS foundation for quick
+          mockups <br />
+          or minimal layouts, ideal for fast prototyping. <br /><br />
+          For site generation and content management, I would use Jekyll or Hugo
+          <br />
+          to structure and publish my site. Jekyll integrates smoothly with
+          GitHub Page, <br />
+          while Hugo offers high performance and scalability. To manage my
+          projects <br />
+          dynamically, I could connect a Hygraph headless CMS, allowing me to
+          update <br />
+          project details and visuals without editing code directly.
+          <br /><br />
+          Finally, ImageKit.io would optimize and deliver my visuals
+          efficiently, <br />
+          ensuring fast loading times without compromising image quality.
+          <br /><br />
+          Together, these tools would help me create a visually engaging,
+          interactive, <br />
+          and technically robust portfolio that reflects both my design
+          expertise <br />
+          and emerging web development skills.<br /><br /><br />
+        </p>
+      </section>
+    </main>
+    <footer class="resources-footer">
+      <p>&copy; 2025 Lucija Kuzmic — Web Design Resources Project</p>
+    </footer>
+  </body>
+</html>
